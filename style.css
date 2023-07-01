@@ -337,20 +337,6 @@ input[type=text], input[type=email], input[type=message]{
 .subtn:hover {
   opacity:1.2;
 }
-/* .ptext .border img{
-    position: relative;
-    top: -195px;
-    left: -20px;
-    max-height: 390px;
-    opacity: 0.90;
-  }
-  .ptext .border.trans{
-    background-color: transparent;
-  } */
-
-
-
-
 
 @media(max-width: 992px){
     .navbar .links,.navbar .switch{
@@ -389,21 +375,9 @@ input[type=text], input[type=email], input[type=message]{
       width: 80%;
     }
     .contactme{
-      top: 45%;
+      top: 40%;
     }
     .ptext{
-      top: 10%;
+      top: 5%;
     }
-    /* .ptext .border img{
-        position: relative;
-        top: -180px;
-        left: 20px;
-        max-width: 500px;
-      }
-      .container{
-        max-width: 568px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin: auto;
-      } */
 }
