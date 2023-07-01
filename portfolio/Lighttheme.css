@@ -1,0 +1,16 @@
+.light-theme {
+    color: black;
+    background-color: whitesmoke;
+  }
+  
+.theme-toggle-button{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 30px;
+  }
+
+.github{
+    color: black;
+}
