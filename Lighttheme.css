@@ -1,0 +1,15 @@
+.light-theme{
+    color: black;
+    background-color: whitesmoke;
+  }
+header{
+  color: black;
+  background-color: white;
+}
+.theme-toggle-button{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    height: 30px;
+  }

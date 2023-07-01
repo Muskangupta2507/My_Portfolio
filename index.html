@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link id="theme-stylesheet" rel="stylesheet" href="Lighttheme.css">
+
+        <title>My Portfolio</title>
+    </head>
+    <body id="contentElement" class="light-theme">
+        <header>
+            <div class="navbar scrolled">
+                <div class="naml">Muskan Gupta</div>
+                <ul class="links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="projects.html" target="_blank">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                <li><label class="switch">
+                    <input id="switch-toggle" type="checkbox" onchange="handleCheckbox()" name="Dark Theme">
+                    <span class="slider round"></span>
+                </label></li>
+                </ul>
+                
+                <div class="toggle-btn">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+
+            </div>
+            <div class="dropdown_nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="projects.html" target="_blank">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><button id="theme-toggle-btn" class="theme-toggle-button">Dark Mode</button></li>                
+            </div>
+        </header>
+        <section class="landingpage" id="home">
+            <div class="bgimg"></div>
+            <div class="bgtext">
+                <h1>Hi, I am Muskan Gupta</h1>
+                <br>
+                <h3>And I'm a Webdeveloper.</h3>
+            </div>
+        </section>
+
+
+        <div class="about" id="about">
+            <div class="column1">
+                <img class="logo" src="./images/girl.png">
+            </div>
+            <div class="column2">
+                <h1>About Me</h1>
+                <br><br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nam amet laboriosam doloribus tempora aliquam aut porro ad fuga, ullam inventore quidem explicabo animi numquam officiis non neque at illum!</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, officiis alias. Nulla at itaque quos? Adipisci placeat, veniam consectetur perferendis illum nemo! Illum, doloremque consequatur. Error reiciendis odio eveniet laborum. Accusantium dicta consequatur quibusdam nulla animi voluptate assumenda quis doloribus?</p>
+                <br>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis cumque ut non et sequi molestiae perspiciatis nostrum rerum sapiente accusantium, facere quos praesen</p>
+            </div>
+        </div>
+
+
+        <section id="skills">
+            <div class="section section-dark">
+                <h2>What can I do?</h2>
+
+                <p class="skill-name"><i class="fa-solid fa-image"></i> Front-End (HTML, CSS, JS)</p>
+                <div class="skill-container">
+                  <div class="skills front-end">80%</div>
+                </div>
+
+                <p class="skill-name"><i class="fa-brands fa-java"></i> Java</p>
+                <div class="skill-container">
+                  <div class="skills java">70%</div>
+                </div>
+                       
+                <p class="skill-name"><i class="fa-brands fa-python"></i> Python</p>
+                <div class="skill-container">
+                  <div class="skills python">80%</div>
+                </div>
+            
+                <p class="skill-name"><i class="fa-regular fa-pen-to-square"></i> Web Design</p>
+                <div class="skill-container">
+                  <div class="skills design">75%</div>
+                </div>
+            
+                <p class="skill-name"><i class="fa fa-graduation-cap"></i> Learning a new skill</p>
+                <div class="skill-container">
+                  <div class="skills learn">100%</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section> -->
+            <div class="parallax-img1">
+                <div id="contact">
+                    <h1 class="ptext">Contact Me</h1>
+                    <div class="contactme">
+                        <label for="name"><b>Name :-</b></label>
+                        <input type="text" placeholder="Name" id="text" maxlength="35" required>
+                        <br>
+                        <label for="Email"><b>Email :-</b></label>
+                        <input type="email" placeholder="Enter valid Email" name="email" id="email" required>
+                        <br>
+                        <label for="message"><b>Message :-</b></label>
+                        <input type="text" placeholder="Enter your comments here !!!" id="mess" maxlength="1000" required></input>
+                        <br>
+                        <button type="submit" class="subtn">Submit</button>
+                        <br>
+                    </div>
+                    
+                </div>
+            </div>
+        <!-- </section> -->
+        <script src="black_white.js" async defer></script>
+    </body>
+</html>

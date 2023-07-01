@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: black;
+    color: white;
+}
+.bgimg1{
+    background: url(./images/background.png) no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+.bgimg2{
+    background: url(./images/grass.png) no-repeat;
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.bgimg3{
+    background: url(./images/tree-left.png);
+        min-height: 100vh;
+        width: 100%;
+        background-position: left;
+        background-size: cover;
+}
+.bgimg4{
+    background: url(./images/tree-right.png);
+        min-height: 100vh;
+        width: 100%;
+        background-position: right;
+        background-size: cover;
+}
+.herotext{
+    color: black;
+    font-size: 6em;
+    text-align: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position:absolute;
+}
+.proj{
+    background: url(./images/bgblack.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: center;
+}
+
+@media (max-width: 539px){
+    .bgimg3,.bgimg4{
+        display: none;
+    }
+}

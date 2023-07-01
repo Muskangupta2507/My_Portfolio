@@ -1,0 +1,13 @@
+.dark-theme,header,.navbar a,html{
+    color: white ;
+    background-color: black;
+  }
+  
+.theme-toggle-button{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 10px white;
+    border-radius: 10px;
+    height: 30px;
+}
