@@ -368,14 +368,12 @@ input[type=text], input[type=email], input[type=message]{
     .skill{
         display: block;
     }
-    .parallax-img1{
-        background-attachment: scroll;
-    }
     input[type=text], input[type=email], input[type=message]{
+
       width: 80%;
     }
     .contactme{
-      top: 40%;
+      top: 30%;
     }
     .ptext{
       top: 5%;
