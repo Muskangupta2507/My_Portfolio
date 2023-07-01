@@ -385,6 +385,15 @@ input[type=text], input[type=email], input[type=message]{
     .parallax-img1{
         background-attachment: scroll;
     }
+    input[type=text], input[type=email], input[type=message]{
+      width: 80%;
+    }
+    .contactme{
+      top: 45%;
+    }
+    .ptext{
+      top: 10%;
+    }
     /* .ptext .border img{
         position: relative;
         top: -180px;
