@@ -60,4 +60,8 @@ body{
     justify-content: center;
 }
 
-
+@media (max-width: 539px){
+    .bgimg3,.bgimg4{
+        display: none;
+    }
+}

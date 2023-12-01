@@ -30,7 +30,7 @@ const handleCheckbox = () => {
 }
 
 
-// Toggle btn for different mediia
+// Toggle btn for different media
 const togglebtn = document.querySelector('.toggle-btn');
 const toggleBtnIcon = document.querySelector('.toggle-btn i');
 const dropdownMenu = document.querySelector('.dropdown_nav');
