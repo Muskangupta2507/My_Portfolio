@@ -247,6 +247,9 @@ header li a{
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 
   }
   .skill-name{
@@ -334,20 +337,6 @@ input[type=text], input[type=email], input[type=message]{
 .subtn:hover {
   opacity:1.2;
 }
-/* .ptext .border img{
-    position: relative;
-    top: -195px;
-    left: -20px;
-    max-height: 390px;
-    opacity: 0.90;
-  }
-  .ptext .border.trans{
-    background-color: transparent;
-  } */
-
-
-
-
 
 @media(max-width: 992px){
     .navbar .links,.navbar .switch{
@@ -359,6 +348,10 @@ input[type=text], input[type=email], input[type=message]{
     }
     .dropdown_nav{
         display: block;
+    }
+    .section{
+      margin: auto;
+      padding: 15px 40px;
     }
 }
 @media(max-width: 576px){
@@ -375,19 +368,14 @@ input[type=text], input[type=email], input[type=message]{
     .skill{
         display: block;
     }
-    .parallax-img1{
-        background-attachment: scroll;
+    input[type=text], input[type=email], input[type=message]{
+
+      width: 80%;
     }
-    /* .ptext .border img{
-        position: relative;
-        top: -180px;
-        left: 20px;
-        max-width: 500px;
-      }
-      .container{
-        max-width: 568px;
-        padding-left: 1rem;
-        padding-right: 1rem;
-        margin: auto;
-      } */
+    .contactme{
+      top: 30%;
+    }
+    .ptext{
+      top: 5%;
+    }
 }
